@@ -56,6 +56,31 @@ xcuserdata/
 **/android/**/.settings/
 **/android/**/.caches/
 
+# Pods related
+ios/Pods/
+
 # Exceptions to above rules.
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+# Android SDK and AVD related
+/.idea/avdmanager.cfg
+/.idea/devices.xml
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/libraries
+/.idea/modules
+*.iml
+*.iws
+
+# Fastlane related
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# External native build folder generated in Android Studio
+/.cxx/
+
+# Navigation editor temp files
+/.navigation/
 
