@@ -1,0 +1,61 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code related
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Xcode related
+**/ios/.symlinks/
+**/ios/Flutter/.last_build_id
+*.mode1v3
+*.mode2v3
+*.pbxuser
+!default.pbxuser
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+# Android related
+**/android/.gradle
+**/android/.idea
+**/android/*.iml
+**/android/.DS_Store
+**/android/.gradle
+**/android/.user
+**/android/*.keystore
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/generated/
+**/android/**/build/
+**/android/**/.classpath
+**/android/**/.project
+**/android/**/.settings/
+**/android/**/.caches/
+
+# Exceptions to above rules.
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
